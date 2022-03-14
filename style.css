@@ -1,0 +1,564 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+.header-top {
+    overflow: hidden;
+}
+
+.header-bottom {
+    overflow: hidden;
+    border-bottom: 1px solid #4169E1;
+}
+
+.inter {
+    text-align: left;
+    list-style: none;
+}  
+
+.inter p {
+    float: right;
+    padding: 20px 10px 20px 10px;
+}
+
+.system p {
+    color: #54595d;
+}
+
+.inter a {
+    color: #4169E1;
+}
+
+.inter a:hover {
+    color: #7B68EE;
+    transition: all 0.2s linear;
+}
+
+.left-nav {
+    float: left;
+    list-style: none;
+}
+
+.left-nav p {
+    float: right;
+    padding: 10px;
+    border-left: 1px solid #4169E1;
+    border-bottom: none;
+    color: #1c4cfc;
+}
+
+.left-nav p:hover {
+    background-image: linear-gradient(to top, #d9e1ff, #fff);
+    color: #7B68EE;
+}
+
+.left-nav p:last-child {
+    border-right: #4169E1 1px solid;
+    border-left: none;
+}
+
+.right-nav {
+    float: right;
+    list-style: none;
+}
+
+.right-nav p {
+   float: left;
+   padding: 10px;
+   border-left: 1px solid #4169E1;
+   border-bottom: 1px solid #4169E1;
+   color: #1c4cfc;
+   border-bottom: none;
+}
+
+.right-nav p:hover {
+    background-image: linear-gradient(to top, #d9e1ff, #fff);
+    color: #7B68EE;
+}
+
+.search {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 16px;
+    margin-left: 5px;
+    width: 400px;
+    padding-bottom: 5px;
+}
+
+.search:focus {
+    background-color: rgba(166, 181, 255, 0.15);
+    border: 1px solid #f1f1f1;
+    outline: none !important;
+}
+
+.seven {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.material {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.sn {
+    font-weight: 600px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.mn {
+    padding-top: 3px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.mn a {
+    text-decoration: none;
+}
+
+.main-section a {
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.main-section a:visited {
+    color: #5e6bad;
+}
+
+.main-section a:hover {
+    color: #7B68EE;
+}
+
+.mnt {
+    padding-top: 3px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.mnt a {
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 20px;
+}
+
+.on {
+    width: 500px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    background: #f5f5f5;
+    margin-left: 670px;
+}
+
+.on a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.on a:hover {
+    color: #7B68EE;
+}
+
+.hide {
+    text-align: center;
+    padding: 15px;
+}
+
+.f {
+    padding: 10px;
+    line-height: 30px;
+}
+
+.evo {
+    margin-left: 20px;
+}
+
+.evo h1 {
+    font-size: 25px;
+}
+
+.corc {
+    background: #f1f1f1;
+    border: 1px solid #111;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.corc a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.corc a:hover {
+    color: #7B68EE; 
+}
+
+.fs a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.fs p {
+    font-size: 20px;
+}
+
+.fs a:hover {
+    color: #7B68EE; 
+}
+
+.bord {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bord a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.bord a :hover {
+    color: #7B68EE; 
+}
+
+.bord p {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.bord {
+    background: #f1f1f1;
+    padding: 20px;
+    border-left: 7px solid #e3dede;
+}
+
+.t {
+   padding: 40px 0px 40px 20px; 
+   line-height: 20px;
+   font-size: 20px;
+}
+
+.t a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.t a:hover {
+    color: #7B68EE; 
+}
+
+.stix p {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.stix {
+    background: #f1f1f1;
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #e3dede;
+    border-radius: 5px;
+}
+
+.tx {
+    line-height: 25px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.tx a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.tx a:hover {
+    color: #7B68EE;
+}
+
+.klassificate h1 {
+    font-size: 25px;
+}
+
+.klassificate {
+    padding: 20px; 
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.co {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.co a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.co a:hover {
+    color: #7B68EE;
+}
+
+.er {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.er a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.er a:hover {
+    color: #7B68EE;
+}
+
+.pir {
+    text-align: center;
+    background-color: #f9fce1;
+}
+
+.pir img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.pir p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 35px;  
+}
+
+.sad {
+    text-align: center;
+    background-color: #e4f0ea;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.sad p {
+    padding: 35px;
+}
+
+.sad img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.zeus {
+    text-align: center;
+    background-color: #f0ffff;
+    padding-top: 30px;
+}
+
+.zeus p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 35px; 
+}
+
+.zeus img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.artem {
+    text-align: center;
+    background-color: #e8f0fc;
+    padding-top: 30px;
+    float: right;
+}
+
+.artem p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 35px; 
+}
+
+.artem img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.mav {
+    text-align: center;
+    background-color: #e0f4ff;
+    padding-top: 30px;
+}
+
+.mav p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 35px; 
+}
+
+.mav img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.rod {
+    text-align: center;
+    background-color: #e0fff0;
+    padding-top: 30px;
+}
+
+.rod p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 35px; 
+}
+
+.rod img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.light {
+    text-align: center;
+    background-color: #e0e7ff;
+    padding-top: 30px;
+}
+
+.light p {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 35px; 
+}
+
+.light img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.sm {
+    padding: 20px;
+}
+
+.sm h1 {
+    font-size: 25px;
+}
+
+.sm li {
+    line-height: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #defffb;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.sm li:hover {
+    background-color: #f5ffde;
+}
+
+.sm a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.sm a:hover {
+    color: #7B68EE;
+}
+
+.lit {
+    padding: 20px;
+}
+
+.lit a {
+    text-decoration: none;
+    color: #4169E1;
+    transition: all 0.2s linear;
+}
+
+.lit a:hover {
+    color: #7B68EE;
+}
+
+.lit h1 {
+    font-size: 25px;
+}
+
+.lit li {
+    line-height: 20px;
+    font-size: 18px;
+    padding: 7px;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
